@@ -22,5 +22,5 @@ const balance = (state = 0, action) => {
     bake_cookie(BALANCE_COOKIE, balance);
     return balance;
 }
-// export default deposit;
+
 export default balance;
